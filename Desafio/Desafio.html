@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio typescript</title>
+    <link rel="stylesheet" href="Desafio.CSS">
+
+</head>
+
+<body>
+    <header>
+        <h2>SyncTur</h2>
+    </header>
+
+    <br><br>
+
+    <main>
+        <h2>Cadastrar Pacotes</h2>
+        <br><br>
+
+        <!--  vermelho -->
+        <div class="toda_parte">
+
+            <!-- Principal azul -->
+            <div class="toda_a_parte_de_cima">
+
+                <!--  principal cinza -->
+                <div class="pacote_status_descrição">
+                    <div class="pacote">
+                        <h3>Pacote</h3>
+                        <br>
+                        <input class="quadra_do_numero" type="text" id="numero" placeholder="digite nome completo">
+                    </div>
+
+                    <br><br>
+
+                    <!-- principal cinza -->
+                    <div class="status_e_data">
+                        <!-- principal verde -->
+                        <div class="status">
+                            <h3>Status do Pacote</h3>
+                            <input type="checkbox" name="Status" id="ativo" value="ativo">
+                            <label for="ativo">ativo </label>
+                            <br>
+                            <br>
+                            <input type="checkbox" name="Status" id="inativo" value="inativo">
+                            <label for="inativo">inativo </label>
+                        </div>
+
+
+                        <!-- secundario verde -->
+                        <div class="data_da_viagem">
+                            <h3>data da viagem</h3>
+                            <input class="data" type="date" id="data" placeholder="data">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="descrição">
+                <h3>Descrição</h3>
+                <br>
+                <textarea id="ds" placeholder="Descrição do Pacote"></textarea>
+            </div>
+            <br>
+        </div>
+
+
+        <br> <br>
+
+        <!-- butão -->
+        <div class="botao">
+            <button id="bt" onclick="Cadastrar()">Cadastrar</button>
+        </div>
+
+        <br><br>
+
+
+        <div class="lista_pacote"></div>
+
+
+    </main>
+
+    <footer>
+        <div class="footer">
+
+            <div class="SyncTur">
+                <h1>SyncTur</h1>
+            </div>
+
+            <div class="linha"></div>
+
+            <div class="informe">
+
+                <p class="rodape">Company Inc., 8901 Marmora Road, Glasgow, D04 89GR
+                    <br><br>
+                    Call us now toll free: (800)2345-6789
+                    <br><br>
+                    Customer support: support@demolink.org
+                    <br><br>
+                    Skype: sample-username
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <br><br>
+
+    <script src="DESAFIO.js"></script>
+</body>
+
+</html>

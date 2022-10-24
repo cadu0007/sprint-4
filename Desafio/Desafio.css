@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+main{
+    margin: 50px;
+}
+
+header{
+    background-color: #F8F9FA ;
+    display: flex;
+    align-items: flex-start;
+    Height:24px;
+
+}
+
+.pacote
+input{
+    Height:38px;
+    Width:589px;
+}
+
+.descrição
+textarea{
+    Width:555px;
+    Height:161px;
+}
+
+.pacote_status_descrição{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+}
+
+.status_e_data{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   
+}
+
+.toda_parte{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    background-color:  #8458FF;
+    align-items: center;
+    width: 77px;
+    height: 40px;
+    border-radius: 4px;
+
+}
+
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+
+}
+
+span{
+    font-weight: bold;
+}
+    
+.botoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 16px;
+    width: 85px;
+    height: 39px;
+    border-radius: 4px;
+}
+
+.excluir{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 16px;
+width: 85px;
+height: 39px;
+
+border-radius: 4px;
+
+}
+
+.botao_editar{
+    width: 78px;
+    height: 39px;
+    background: #FFC107;
+    border-radius: 4px;
+    
+}
+
+.botao_excluir{
+    width: 85px;
+    height: 39px;
+    background: #DC3545;
+    border-radius: 4px;
+}
+
+.pacotex{
+    background: #FFFFFF;
+    border: 1px solid #DEE2E6;
+    border-radius: 4px; 
+}
+
+.footer{
+    width: 1440px;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #F6511D;
+
+}
+.SyncTur{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.linha{
+    display: flex;
+    height: 175px;
+    width: 2px;
+    background-color: white;
+}
+.Informe{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+}
+
+.rodape{
+    color: white;
+}
